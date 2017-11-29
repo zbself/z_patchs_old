@@ -1,5 +1,6 @@
 # z_patchs
 <br>
+<code>
 var patchs:Patchs = new Patchs();<br>
 patchs.addEventListener(zPathProgressEvent.PROGRESS,onProgressHandler);<br>
 patchs.addEventListener(zPathEvent.PATCH_COMPLETE,patchCompleteHandler);<br>
@@ -12,3 +13,4 @@ function patchCompleteHandler(event:zPathEvent):void<br>
 {<br>
 >>trace(zZIP(event.eventData).stamp+" 更新完毕");<br>
 }<br>
+</code>
